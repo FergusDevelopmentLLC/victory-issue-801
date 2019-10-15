@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { VictoryScatter } from "./victory-scatter/src/index";
+import { VictoryTooltip } from "./victory-tooltip/src/index";
 
-function App() {
+export const App = () => {
+  
+  const parentStyle = { border: "1px solid #ccc", margin: "2%", maxWidth: "40%" };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <VictoryScatter
+        style={{ parent: parentStyle }}
+        labelComponent={
+          <VictoryTooltip 
+            //dy={0} 
+            orientation={'left'}
+            />
+        }
+        labels={({ datum }) => `hi #${datum.x}`}
+        size={({ active }) => (active ? 5 : 3)}
+        data={[{ x: 3, y: 3 }]}
+      />
     </div>
   );
-}
-
-export default App;
+};

@@ -4,22 +4,17 @@ import { VictoryTooltip } from "./victory-tooltip/src/index";
 
 export const App = () => {
   
-  const parentStyle = { border: "1px solid #ccc", margin: "2%", maxWidth: "40%" };
-
   return (
-    <div>
+    
+    <div style={{width:"350px", margin: '100px', border:"1px solid #ccc"}}>
       <VictoryScatter
-        style={{ parent: parentStyle }}
-        labelComponent={
-          <VictoryTooltip 
-            //dy={0} 
-            orientation={'left'}
-            />
-        }
-        labels={({ datum }) => `hi #${datum.x}`}
-        size={({ active }) => (active ? 5 : 3)}
-        data={[{ x: 3, y: 3 }]}
+        size={5}
+        labelComponent={<VictoryTooltip orientation={'left'} />}
+        labels={({ datum }) => `(${datum.x}, ${datum.y})`}
+        data={[{ x: 3, y: 1} , {x: 3, y: 2 } ]}
+        horizontal={false}
       />
     </div>
-  );
-};
+    
+  )
+}

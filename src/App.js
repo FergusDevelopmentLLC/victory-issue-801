@@ -442,7 +442,7 @@ export const App = () => {
   size={5}
   style={{ labels: { fill: "black", fontSize: 14} }}
   labels={({ datum }) => \`(\${datum.x}, \${datum.y})\`} 
-  labelComponent={<VictoryTooltip orientation = {'right'} dx={-30}/>}
+  labelComponent={<VictoryTooltip orientation = {'left'} dx={-30}/>}
   horizontal={true}
 />
 

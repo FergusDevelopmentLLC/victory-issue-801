@@ -42,8 +42,9 @@ function getPadding(props, datum) {
 
   //const { horizontal, style } = props;
   const { horizontal, style, labelComponent } = props;
+
   //const orientation = Helpers.evaluateProp(labelComponent.props.orientation, props);
-  const orientation = labelComponent.props.orientation
+  const orientation = labelComponent.props.orientation;
   
   const labelStyle = style.labels || {};
   const defaultPadding = Helpers.evaluateProp(labelStyle.padding, props) || 0;
@@ -72,14 +73,15 @@ function getPadding(props, datum) {
           y: 0
         };
       case undefined:
+        //catches case when orientation not set on tooltip
+        //tests:
+        //https://l9jpo.codesandbox.io/#test13
+        //https://l9jpo.codesandbox.io/#test14
+        //https://l9jpo.codesandbox.io/#test15
+        //https://l9jpo.codesandbox.io/#test16
         return {
           x: horizontal ? sign * defaultPadding : 0,
           y: horizontal ? 0 : -1 * sign * defaultPadding
-        };
-      default:
-        return {
-          x: 0,
-          y: -1 * sign * defaultPadding
         };
     }
   }

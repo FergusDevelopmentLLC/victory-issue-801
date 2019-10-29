@@ -9,8 +9,7 @@ export const App = () => {
   return (
     <div style={{width:"500px"}}>
       <hr/>
-      <a name="test01"></a>
-      <h4>Test #1</h4>
+      <a href="/#test01" name="test01"><h4>Test #1</h4></a>
       <pre>{
         ` 
 <VictoryScatter
@@ -36,8 +35,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test02"></a>
-      <h4>Test #2</h4>
+      <a href="/#test02" name="test02"><h4>Test #2</h4></a>
       <pre>{
         ` 
 <VictoryBar
@@ -61,8 +59,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test03"></a>
-      <h4>Test #3</h4>
+      <a href="/#test03" name="test03"><h4>Test #3</h4></a>
       <pre>{
 ` 
 <VictoryScatter
@@ -88,8 +85,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test04"></a>
-      <h4>Test #4</h4>
+      <a href="/#test04" name="test04"><h4>Test #4</h4></a>
       <pre>{
         ` 
 <VictoryBar
@@ -113,8 +109,7 @@ export const App = () => {
       </div>
       <hr/>      
 
-      <a name="test05"></a>
-      <h4>Test #5</h4>
+      <a href="/#test05" name="test05"><h4>Test #5</h4></a>
       <pre>{
         ` 
 <VictoryScatter
@@ -141,8 +136,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test06"></a>
-      <h4>Test #6</h4>
+      <a href="/#test06" name="test06"><h4>Test #6</h4></a>
       <pre>{
         ` 
 <VictoryBar
@@ -167,8 +161,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test07"></a>
-      <h4>Test #7</h4>
+      <a href="/#test07" name="test07"><h4>Test #7</h4></a>
       <pre>{
         ` 
 <VictoryScatter
@@ -196,8 +189,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test08"></a>
-      <h4>Test #8</h4>
+      <a href="/#test08" name="test08"><h4>Test #8</h4></a>
       <pre>{
         ` 
 <VictoryBar
@@ -223,8 +215,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test09"></a>
-      <h4>Test #9</h4>
+      <a href="/#test09" name="test09"><h4>Test #9</h4></a>
       <pre>{
         ` 
 <VictoryScatter
@@ -252,8 +243,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test10"></a>
-      <h4>Test #10</h4>
+      <a href="/#test10" name="test10"><h4>Test #10</h4></a>
       <pre>{
         ` 
 <VictoryBar
@@ -279,8 +269,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test11"></a>
-      <h4>Test #11</h4>
+      <a href="/#test11" name="test11"><h4>Test #11</h4></a>
       <pre>{
         ` 
 <VictoryScatter
@@ -308,8 +297,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test12"></a>
-      <h4>Test #12</h4>
+      <a href="/#test12" name="test12"><h4>Test #12</h4></a>
       <pre>{
         ` 
 <VictoryBar
@@ -335,8 +323,7 @@ export const App = () => {
       </div>
       <hr/>      
 
-      <a name="test13"></a>
-      <h4>Test #13</h4>
+      <a href="/#test13" name="test13"><h4>Test #13</h4></a>
       <pre>{
         ` 
 <VictoryScatter
@@ -364,8 +351,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test14"></a>
-      <h4>Test #14</h4>
+      <a href="/#test14" name="test14"><h4>Test #14</h4></a>
       <pre>{
         ` 
 <VictoryBar
@@ -391,8 +377,7 @@ export const App = () => {
       </div>
       <hr/>       
 
-      <a name="test15"></a>
-      <h4>Test #15</h4>
+      <a href="/#test15" name="test15"><h4>Test #15</h4></a>
       <pre>{
         ` 
 <VictoryScatter
@@ -418,8 +403,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test16"></a>
-      <h4>Test #16</h4>
+      <a href="/#test16" name="test16"><h4>Test #16</h4></a>
       <pre>{
         ` 
 <VictoryBar
@@ -445,8 +429,7 @@ export const App = () => {
       </div>
       <hr/>      
       
-      <a name="test17"></a>
-      <h4>Test #17</h4>
+      <a href="/#test17" name="test17"><h4>Test #17</h4></a>
       <pre>{
         ` 
 <VictoryScatter
@@ -471,8 +454,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test18"></a>
-      <h4>Test #18</h4>
+      <a href="/#test18" name="test18"><h4>Test #18</h4></a>
       <pre>{
         ` 
 <VictoryBar
@@ -496,8 +478,7 @@ export const App = () => {
       </div>
       <hr/>       
 
-      <a name="test19"></a>
-      <h4>Test #19</h4>
+      <a href="/#test19" name="test19"><h4>Test #19</h4></a>
       <pre>{
         ` 
 <VictoryScatter
@@ -522,8 +503,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test20"></a>
-      <h4>Test #20</h4>
+      <a href="/#test20" name="test20"><h4>Test #20</h4></a>
       <pre>{
         ` 
 <VictoryBar
@@ -547,8 +527,7 @@ export const App = () => {
       </div>
       <hr/>       
 
-      <a name="test21"></a>
-      <h4>Test #21</h4>
+      <a href="/#test21" name="test21"><h4>Test #21</h4></a>
       <pre>{
         ` 
 <VictoryScatter
@@ -573,8 +552,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test22"></a>
-      <h4>Test #22</h4>
+      <a href="/#test22" name="test22"><h4>Test #22</h4></a>
       <pre>{
         ` 
 <VictoryBar
@@ -598,8 +576,7 @@ export const App = () => {
       </div>
       <hr/>      
 
-      <a name="test23"></a>
-      <h4>Test #23</h4>
+      <a href="/#test23" name="test23"><h4>Test #23</h4></a>
       <pre>{
         ` 
 <VictoryScatter
@@ -624,8 +601,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test24"></a>
-      <h4>Test #24</h4>
+      <a href="/#test24" name="test24"><h4>Test #24</h4></a>
       <pre>{
         ` 
 <VictoryBar
@@ -649,8 +625,7 @@ export const App = () => {
       </div>
       <hr/>      
 
-      <a name="test25"></a>
-      <h4>Test #25</h4>
+      <a href="/#test25" name="test25"><h4>Test #25</h4></a>
       <pre>{
         ` 
 <VictoryScatter
@@ -675,8 +650,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test26"></a>
-      <h4>Test #26</h4>
+      <a href="/#test26" name="test26"><h4>Test #26</h4></a>
       <pre>{
         ` 
 <VictoryBar
@@ -700,8 +674,7 @@ export const App = () => {
       </div>
       <hr/>      
 
-      <a name="test27"></a>
-      <h4>Test #27</h4>
+      <a href="/#test27" name="test27"><h4>Test #27</h4></a>
       <pre>{
         ` 
 <VictoryScatter
@@ -726,8 +699,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test28"></a>
-      <h4>Test #28</h4>
+      <a href="/#test28" name="test28"><h4>Test #28</h4></a>
       <pre>{
         ` 
 <VictoryBar
@@ -751,8 +723,7 @@ export const App = () => {
       </div>
       <hr/>      
 
-      <a name="test29"></a>
-      <h4>Test #29</h4>
+      <a href="/#test29" name="test29"><h4>Test #29</h4></a>
       <pre>{
         ` 
 <VictoryScatter
@@ -777,8 +748,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test30"></a>
-      <h4>Test #30</h4>
+      <a href="/#test30" name="test30"><h4>Test #30</h4></a>
       <pre>{
         ` 
 <VictoryBar
@@ -802,8 +772,7 @@ export const App = () => {
       </div>
       <hr/>      
 
-      <a name="test31"></a>
-      <h4>Test #31</h4>
+      <a href="/#test31" name="test31"><h4>Test #31</h4></a>
       <pre>{
         ` 
 <VictoryScatter
@@ -828,8 +797,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test32"></a>
-      <h4>Test #32</h4>
+      <a href="/#test32" name="test32"><h4>Test #32</h4></a>
       <pre>{
         ` 
 <VictoryBar
@@ -853,8 +821,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test33"></a>
-      <h4>Test #33</h4>
+      <a href="/#test33" name="test33"><h4>Test #33</h4></a>
       <pre>{
         ` 
 <VictoryScatter
@@ -882,8 +849,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test34"></a>
-      <h4>Test #34</h4>
+      <a href="/#test34" name="test34"><h4>Test #34</h4></a>
       <pre>{
         ` 
 <VictoryBar
@@ -909,8 +875,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test35"></a>
-      <h4>Test #35</h4>
+      <a href="/#test35" name="test35"><h4>Test #35</h4></a>
       <pre>{
         ` 
 <VictoryScatter
@@ -938,8 +903,7 @@ export const App = () => {
       </div>
       <hr/>
 
-      <a name="test36"></a>
-      <h4>Test #36</h4>
+      <a href="/#test36" name="test36"><h4>Test #36</h4></a>
       <pre>{
         ` 
 <VictoryBar

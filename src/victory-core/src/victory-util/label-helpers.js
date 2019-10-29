@@ -42,38 +42,52 @@ function getPadding(props, datum) {
 
   //const { horizontal, style } = props;
   const { horizontal, style, labelComponent } = props;
-  const orientation = Helpers.evaluateProp(labelComponent.props.orientation, props);
+  //const orientation = Helpers.evaluateProp(labelComponent.props.orientation, props);
+  const orientation = labelComponent.props.orientation
   
   const labelStyle = style.labels || {};
   const defaultPadding = Helpers.evaluateProp(labelStyle.padding, props) || 0;
   const sign = datum._y < 0 ? -1 : 1;
   
-  switch (orientation) {
-    case "top":
-      return {
-        x: 0,
-        y: -1 * sign * defaultPadding
-      };
-    case "left":
-      return {
-        x: -1 * sign * defaultPadding,
-        y: 0
-      };
-    case "bottom":
-      return {
-        x: 0,
-        y: sign * defaultPadding
-      };
-    case "right":
-      return {
-        x: sign * defaultPadding,
-        y: 0
-      };
-    default:
-      return {
-        x: horizontal ? sign * defaultPadding : 0,
-        y: horizontal ? 0 : -1 * sign * defaultPadding
-      };
+  if(Helpers.evaluateProp(labelComponent.type.name, props) === "VictoryTooltip") {
+    switch (orientation) {
+      case "top":
+        return {
+          x: 0,
+          y: -1 * sign * defaultPadding
+        };
+      case "left":
+        return {
+          x: -1 * sign * defaultPadding,
+          y: 0
+        };
+      case "bottom":
+        return {
+          x: 0,
+          y: sign * defaultPadding
+        };
+      case "right":
+        return {
+          x: sign * defaultPadding,
+          y: 0
+        };
+      case undefined:
+        return {
+          x: horizontal ? sign * defaultPadding : 0,
+          y: horizontal ? 0 : -1 * sign * defaultPadding
+        };
+      default:
+        return {
+          x: 0,
+          y: -1 * sign * defaultPadding
+        };
+    }
+  }
+  else {
+    return {
+      x: horizontal ? sign * defaultPadding : 0,
+      y: horizontal ? 0 : -1 * sign * defaultPadding
+    };
   }
 }
 
